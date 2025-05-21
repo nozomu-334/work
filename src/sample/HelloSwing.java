@@ -17,7 +17,7 @@ public class HelloSwing {
             // ラベルに文字列を設定
             JLabel label = new JLabel("ようこそJavaの世界へ", JLabel.CENTER);
             
-            new JButton("OK");
+            JButton button = new JButton("OK");
             
             label.setFont(new Font("Arial", Font.PLAIN, 20));
             
